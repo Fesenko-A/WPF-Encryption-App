@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:system="clr-namespace:System;assembly=netstandard">
+    <!-- Common -->
+    <system:String x:Key="StrGoBackButton">Назад</system:String>
+    
+    <!-- MainWindow -->
+    <system:String x:Key="StrMainWindowName">Вхід</system:String>
+    <system:String x:Key="StrLoginText">Логін</system:String>
+    <system:String x:Key="StrPasswordText">Пароль</system:String>
+    <system:String x:Key="StrSignInButton">Увійти</system:String>
+    <system:String x:Key="StrIncorrectCredentials">Неправильний логін або пароль</system:String>
+    
+    <!-- ChooseWindow -->
+    <system:String x:Key="StrLoggedInAs">Акаунт</system:String>
+    <system:String x:Key="StrAction">Що Ви бажаєте виконати?</system:String>
+    <system:String x:Key="StrEnctyptMessage">Зашифрувати повідомлення</system:String>
+    <system:String x:Key="StrDecryptFile">Розшифрувати текстовий файл</system:String>
+    <system:String x:Key="StrLogOut">Вийти</system:String>
+
+    <!-- EncryptWindow -->
+    <system:String x:Key="StrEncryptWindowName">Шифрування</system:String>
+    <system:String x:Key="StrEncryptionPassword">Пароль для шифрування</system:String>
+    <system:String x:Key="StrRecipient">Отримувач</system:String>
+    <system:String x:Key="StrTopic">Тема</system:String>
+    <system:String x:Key="StrSendButton">Відправити</system:String>
+
+    <!-- IncorrectPasswordWindow -->
+    <system:String x:Key="StrIncorrectPassword">Невірний пароль</system:String>
+
+    <!-- IncorrectPasswordWindow -->
+    <system:String x:Key="StrDecryptWindowName">Дешифрування</system:String>
+    <system:String x:Key="StrDecryptionPassword">Пароль для дешифрування</system:String>
+    <system:String x:Key="StrOpenFileButton">Відкрити .txt файл</system:String>
+
+    <!-- AccessDeniedWindow -->
+    <system:String x:Key="StrAccessDenied">Доступ заблоковано</system:String>
+</ResourceDictionary>

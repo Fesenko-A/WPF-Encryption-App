@@ -1,0 +1,21 @@
+﻿<Window x:Class="VolvoApp.ChooseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VolvoApp"
+        mc:Ignorable="d"
+        Title="VolvoCrypt" Height="290" Width="800" FontSize="15pt" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" Text="{DynamicResource StrAction}" VerticalAlignment="Top" Width="760"/>
+        <Button Name="EncryptButton" HorizontalAlignment="Left" Margin="190,88,0,0" VerticalAlignment="Top" Height="95" Width="185" Click="EncryptButton_Click">
+            <TextBlock TextAlignment="Center" Text="{DynamicResource StrEnctyptMessage}" TextWrapping="Wrap" Width="175"/>
+        </Button>
+        <Button Name="DecryptButton" HorizontalAlignment="Left" Margin="425,88,0,0" VerticalAlignment="Top" Height="95" Width="185" Click="DecryptButton_Click">
+            <TextBlock TextAlignment="Center" Text="{DynamicResource StrDecryptFile}" TextWrapping="Wrap" Width="175"/>
+        </Button>
+        <Button Name="LogOutButton" Content="{DynamicResource StrLogOut}" HorizontalAlignment="Center" Margin="0,197,0,0" VerticalAlignment="Top" Width="160" Height="40" Click="LogOutButton_Click"/>
+        <TextBlock TextAlignment="Right" FontSize="10pt" HorizontalAlignment="Left" Margin="20,10,0,0" TextWrapping="Wrap" Text="{DynamicResource StrLoggedInAs}" VerticalAlignment="Top" Height="19" Width="75"/>
+        <TextBlock Name="LoggedUserTextBlock" FontSize="10pt" HorizontalAlignment="Left" Margin="100,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="650"/>
+    </Grid>
+</Window>

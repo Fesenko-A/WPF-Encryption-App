@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:system="clr-namespace:System;assembly=netstandard">
+    <!-- Common -->
+        <system:String x:Key="StrGoBackButton">Go Back</system:String>
+
+    <!-- MainWindow -->
+    <system:String x:Key="StrMainWindowName">Login</system:String>
+    <system:String x:Key="StrLoginText">Login</system:String>
+    <system:String x:Key="StrPasswordText">Password</system:String>
+    <system:String x:Key="StrSignInButton">Sign In</system:String>
+    <system:String x:Key="StrIncorrectCredentials">Incorrect Login or Password</system:String>
+
+    <!-- ChooseWindow -->
+    <system:String x:Key="StrLoggedInAs">Logged in as</system:String>
+    <system:String x:Key="StrAction">What would you like to do?</system:String>
+    <system:String x:Key="StrEnctyptMessage">Encrypt Message</system:String>
+    <system:String x:Key="StrDecryptFile">Decrypt Text File</system:String>
+    <system:String x:Key="StrLogOut">Log Out</system:String>
+
+    <!-- EncryptWindow -->
+    <system:String x:Key="StrEncryptWindowName">Encryption</system:String>
+    <system:String x:Key="StrEncryptionPassword">Encryption Password</system:String>
+    <system:String x:Key="StrRecipient">Recipient</system:String>
+    <system:String x:Key="StrTopic">Topic</system:String>
+    <system:String x:Key="StrSendButton">Send</system:String>
+
+    <!-- IncorrectPasswordWindow -->
+    <system:String x:Key="StrIncorrectPassword">Incorrect Password</system:String>
+
+    <!-- IncorrectPasswordWindow -->
+    <system:String x:Key="StrDecryptWindowName">Decryption</system:String>
+    <system:String x:Key="StrDecryptionPassword">Decryption Password</system:String>
+    <system:String x:Key="StrOpenFileButton">Open .txt File</system:String>
+
+    <!-- AccessDeniedWindow -->
+    <system:String x:Key="StrAccessDenied">Access Denied</system:String>
+</ResourceDictionary>
