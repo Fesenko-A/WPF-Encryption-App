@@ -7,7 +7,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <Platforms>AnyCPU;x86</Platforms>
+    <ApplicationIcon>Images\volvo.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\volvo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\volvo.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="MainWindow.xaml.cs" />
@@ -16,6 +25,10 @@
   <ItemGroup>
     <PackageReference Include="BouncyCastle" Version="1.8.9" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\volvo.ico" />
   </ItemGroup>
 
 </Project>

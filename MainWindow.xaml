@@ -9,8 +9,8 @@
     <Grid>
         <Menu Margin="0,0,0,220">
             <MenuItem Height="24" Width="160" Header="Language | Мова">
-                <MenuItem Name="EnMenuItem" Click="EnMenuItem_Click" Height="24" Width="160" Header="English"></MenuItem>
-                <MenuItem Name="UaMenuItem" Click="UaMenuItem_Click" Height="24" Width="160" Header="Ukrainian"></MenuItem>
+                <MenuItem Name="EnMenuItem" Click="EnMenuItem_Click" Height="24" Width="160" Header="{DynamicResource StrEnglishLanguage}"></MenuItem>
+                <MenuItem Name="UaMenuItem" Click="UaMenuItem_Click" Height="24" Width="160" Header="{DynamicResource StrUkrainianLanguage}"></MenuItem>
             </MenuItem>
         </Menu>
         <TextBox Name="LoginTextBox" HorizontalAlignment="Left" Margin="240,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Height="35"/>

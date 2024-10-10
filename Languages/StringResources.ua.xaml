@@ -3,8 +3,10 @@
                     xmlns:system="clr-namespace:System;assembly=netstandard">
     <!-- Common -->
     <system:String x:Key="StrGoBackButton">Назад</system:String>
-    
+
     <!-- MainWindow -->
+    <system:String x:Key="StrUkrainianLanguage">Українська</system:String>
+    <system:String x:Key="StrEnglishLanguage">Англійська</system:String>
     <system:String x:Key="StrMainWindowName">Вхід</system:String>
     <system:String x:Key="StrLoginText">Логін</system:String>
     <system:String x:Key="StrPasswordText">Пароль</system:String>

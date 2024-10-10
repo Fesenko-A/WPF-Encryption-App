@@ -5,6 +5,8 @@
         <system:String x:Key="StrGoBackButton">Go Back</system:String>
 
     <!-- MainWindow -->
+    <system:String x:Key="StrUkrainianLanguage">Ukrainian</system:String>
+    <system:String x:Key="StrEnglishLanguage">English</system:String>
     <system:String x:Key="StrMainWindowName">Login</system:String>
     <system:String x:Key="StrLoginText">Login</system:String>
     <system:String x:Key="StrPasswordText">Password</system:String>
