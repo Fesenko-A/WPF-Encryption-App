@@ -6,7 +6,7 @@ namespace VolvoApp.Utility
         public static string CurrentUser { get; set; } = string.Empty;
         public static string CurrentUserDepartment { get; set; } = string.Empty;
         public static string MyKey { get; private set; } = "volvoplt1307";
-        public static string CommonFolderPath { get; private set; } = "F:\\Універ\\Технології захисту інформації\\volvocompany\\";
+        public static string CommonFolderPath { get; private set; } = "C:\\volvocompany\\";
         public static ResourceDictionary LanguageDictionary { get; set; } = new ResourceDictionary();
     }
 }

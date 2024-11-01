@@ -40,9 +40,10 @@ namespace VolvoApp
 
             string fileName = string.Concat(TopicTextBox.Text.ToString(), ".txt");
             string text = MainTextBox.Text.ToString();
-            _encryptor.EncryptStringToFile(text, string.Concat(newFolder, fileName));
+            string newFilePath = string.Concat(newFolder, fileName);
+            _encryptor.EncryptStringToFile(text, newFilePath);
 
-            MessageBox.Show("OK");
+            MessageBox.Show($"OK\n{newFilePath}");
         }
     }
 }
